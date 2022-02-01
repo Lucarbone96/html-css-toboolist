@@ -49,6 +49,7 @@ body {
     padding: 4px;
     border-radius: 5px;
     border: solid 0.5px;
+    margin-left: 15px;
 }
     
 #section {
@@ -59,6 +60,7 @@ body {
     border: grey solid 0.1px;
     border-radius: 5px;
     
+    
 }
 
 .scatolone {
@@ -66,6 +68,8 @@ body {
     padding: 8px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    margin-top: 20px;
+    
 }
     
 .sezione {
@@ -80,4 +84,46 @@ body {
 
 li {
     margin: 15px;
+}
+
+.b-b {
+    background-color: cadetblue;
+    color: gainsboro;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.violas {
+    background-color: rgb(139, 0, 139);
+    color: gainsboro;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.petrolios {
+    background-color: rgb(1, 31, 87);
+    color: gainsboro;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.arancios {
+    background-color: darkorange;
+    color: gainsboro;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.rosas {
+    background-color: deeppink;
+    color: gainsboro;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.verdebrutto {
+    background-color: rgb(24, 124, 24);
+    color: gainsboro;
+    padding: 6px;
+    border-radius: 10px;
 }
