@@ -26,8 +26,18 @@
 
 #container {
     width: 60%;
-    
+    background-color: ivory;
     margin: auto;
+    
+    
+}
+
+header {
+    background-color: ivory;
+}
+
+body {
+    background-color: khaki;
 }
 
 .sezione1 {
@@ -41,6 +51,7 @@
     padding: 4px;
     border-radius: 5px;
     border: solid 0.5px;
+    
 
 }
     
@@ -51,5 +62,13 @@
     padding: 3px;
     border: grey solid 0.1px;
     border-radius: 5px;
+    
+}
+
+.scatolone {
+    border: solid black 1px;
+    padding: 8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
     
