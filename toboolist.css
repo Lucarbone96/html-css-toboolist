@@ -8,8 +8,6 @@
 #contenitore {
    
     height: 80px;
-    
-    
 }
 
 #titologo {
@@ -25,5 +23,33 @@
     margin-top: 18px;
     margin-left: 18px;
 }
+
+#container {
+    width: 60%;
     
+    margin: auto;
+}
+
+.sezione1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#task {
+    background-color: rgb(75, 183, 255);
+    color: white;
+    margin-right: 0.5px;
+    padding: 4px;
+    border-radius: 5px;
+    border: solid 0.5px;
+
+}
+    
+#section {
+    background-color: seashell;
+    color: grey;
+    margin-left: 0.5px;
+    padding: 3px;
+    border: grey solid 0.1px;
+    border-radius: 5px;
+}
     
