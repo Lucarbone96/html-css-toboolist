@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+
+#contenitore {
+    border: solid 1px red;
+    height: 80px;
+    
+}
+
+#titologo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
+}
+
+#logo {
+    height: 55px;
+}
+    
+    
