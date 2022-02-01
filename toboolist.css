@@ -28,8 +28,6 @@
     width: 60%;
     background-color: ivory;
     margin: auto;
-    
-    
 }
 
 header {
@@ -40,7 +38,7 @@ body {
     background-color: khaki;
 }
 
-.sezione1 {
+.titolista {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -51,8 +49,6 @@ body {
     padding: 4px;
     border-radius: 5px;
     border: solid 0.5px;
-    
-
 }
     
 #section {
@@ -72,3 +68,16 @@ body {
     border-top-right-radius: 10px;
 }
     
+.sezione {
+    margin: 25px;
+}
+
+.container2 {
+    border: black solid 1px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+li {
+    margin: 15px;
+}
