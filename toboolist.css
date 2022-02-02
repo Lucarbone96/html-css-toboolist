@@ -136,8 +136,10 @@ ul {
     list-style-type: none;
 }
 
-.checkfreccia::be{
+.checkfreccia::before{
   content: "\2304";
+  vertical-align: middle;
+  
   
   
 }
