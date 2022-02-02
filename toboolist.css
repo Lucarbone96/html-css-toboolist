@@ -140,6 +140,10 @@ ul {
     width: 20px;
     padding: 4px;
     border-radius: 16px;
+    display: inline-block;
+    
+    vertical-align: middle;
+    line-height: 4px;
 }
 
 .x {
@@ -150,6 +154,10 @@ ul {
     width: 20px;
     padding: 4px;
     border-radius: 16px;
+    display: inline-block;
+    
+   vertical-align: middle;
+    line-height: 1px;
     
 }
 
