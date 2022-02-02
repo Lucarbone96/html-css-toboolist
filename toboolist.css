@@ -28,7 +28,7 @@ header {
 
 #container {
     width: 60%;
-    background-color: ivory;
+    
     margin: auto;
 }
 
@@ -43,6 +43,7 @@ body {
 .titolista {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-left: 16px;
+    
 }
 
 #task {
@@ -68,10 +69,11 @@ body {
 
 .scatolone {
     border: solid khaki 1px;
-    padding: 8px;
+    padding: 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     margin-top: 20px;
+    background-color: ivory;
     
 }
     
@@ -83,6 +85,7 @@ body {
     border: khaki solid 1px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    background-color: ivory;
 }
 
 li {
@@ -135,32 +138,37 @@ ul {
     list-style-type: none;
 }
 
-.v {
-    color: lawngreen;
-    background-color: white;
-    border: solid 1px lawngreen;
-    height: 20px;
-    width: 20px;
-    padding: 4px;
-    border-radius: 16px;
-    display: inline-block;
-    
-    vertical-align: middle;
-    line-height: 4px;
+.checkfreccia::before{
+  content: "\2304";
+  
 }
 
-.x {
-    color: red;
-    background-color: white;
-    border: solid 1px red;
-    height: 20px;
-    width: 20px;
-    padding: 4px;
-    border-radius: 16px;
+.checkv::before{
+    content: "\2713";
+    color: lawngreen;
     display: inline-block;
-    padding-bottom: 5px;
-    vertical-align: middle;
-    line-height: 1px;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    line-height: 15px;
+    border-color: lawngreen;
+    border: 1px solid;
+    
+}
+
+.checkx::before{
+    content: "\0078";
+    color: red;
+    display: inline-block;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    line-height: 15px;
+    border-color: red;
+    border: 1px solid;
+    
 }
 
 
