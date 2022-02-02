@@ -6,7 +6,7 @@
 
 
 #contenitore {
-   
+    display: inline-block;
     height: 80px;
 }
 
