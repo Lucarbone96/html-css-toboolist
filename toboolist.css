@@ -64,7 +64,7 @@ body {
 }
 
 .scatolone {
-    border: solid black 1px;
+    border: solid khaki 1px;
     padding: 8px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -77,7 +77,7 @@ body {
 }
 
 .container2 {
-    border: black solid 1px;
+    border: khaki solid 1px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -127,3 +127,31 @@ li {
     padding: 6px;
     border-radius: 10px;
 }
+
+ul {
+    list-style-type: none;
+}
+
+.v {
+    color: lawngreen;
+    background-color: white;
+    border: solid 1px lawngreen;
+    height: 20px;
+    width: 20px;
+    padding: 4px;
+    border-radius: 16px;
+}
+
+.x {
+    color: red;
+    background-color: white;
+    border: solid 1px red;
+    height: 20px;
+    width: 20px;
+    padding: 4px;
+    border-radius: 16px;
+    
+}
+
+
+
