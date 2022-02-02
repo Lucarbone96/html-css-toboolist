@@ -42,6 +42,7 @@ body {
 
 .titolista {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 16px;
 }
 
 #task {
@@ -160,7 +161,6 @@ ul {
     padding-bottom: 5px;
     vertical-align: middle;
     line-height: 1px;
-    
 }
 
 
