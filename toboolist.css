@@ -4,24 +4,26 @@
   box-sizing: border-box;
 }
 
-
-#contenitore {
-    display: inline-block;
+header {
     height: 80px;
+    padding: 20px 10px;
 }
+
+
 
 #titologo {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 1.8em;
+    display: inline;
     vertical-align: middle;
+    
 }
 
 #logo {
-    height: 40px;
-    line-height: 40px;
+    height: 100%;
+    
     vertical-align: middle;
-    margin-top: 18px;
-    margin-left: 18px;
+    
+    display: inline;
 }
 
 #container {
@@ -155,8 +157,8 @@ ul {
     padding: 4px;
     border-radius: 16px;
     display: inline-block;
-    
-   vertical-align: middle;
+    padding-bottom: 5px;
+    vertical-align: middle;
     line-height: 1px;
     
 }
