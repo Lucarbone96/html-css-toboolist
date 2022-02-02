@@ -77,9 +77,7 @@ body {
     
 }
     
-.sezione {
-    margin: 25px;
-}
+
 
 .container2 {
     border: khaki solid 1px;
@@ -88,7 +86,7 @@ body {
     background-color: ivory;
 }
 
-li {
+li{
     margin: 15px;
 }
 
@@ -138,8 +136,9 @@ ul {
     list-style-type: none;
 }
 
-.checkfreccia::before{
+.checkfreccia::be{
   content: "\2304";
+  
   
 }
 
